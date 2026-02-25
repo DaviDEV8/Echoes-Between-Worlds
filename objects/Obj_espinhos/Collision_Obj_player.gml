@@ -1,5 +1,4 @@
-var _t = instance_create_layer()
-
+room_restart()
 
 
 
