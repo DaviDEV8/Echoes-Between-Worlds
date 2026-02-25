@@ -9,6 +9,7 @@
     {"name":"inst_426D5053","path":"rooms/Rm_menu/Rm_menu.yy",},
     {"name":"inst_3CA4727D","path":"rooms/Rm_menu/Rm_menu.yy",},
     {"name":"inst_57ED490","path":"rooms/Rm_menu/Rm_menu.yy",},
+    {"name":"inst_289091A4","path":"rooms/Rm_menu/Rm_menu.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -23,6 +24,7 @@
         {"$GMRInstance":"v4","%Name":"inst_57ED490","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_57ED490","objectId":{"name":"Obj_botao","path":"objects/Obj_botao/Obj_botao.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_botao","path":"objects/Obj_botao/Obj_botao.yy",},"propertyId":{"name":"texto","path":"objects/Obj_botao/Obj_botao.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Sair\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":184.0,"y":136.0,},
+        {"$GMRInstance":"v4","%Name":"inst_289091A4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_289091A4","objectId":{"name":"Obj_titulo","path":"objects/Obj_titulo/Obj_titulo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":192.0,"y":32.0,},
       ],"layers":[],"name":"Player","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Decoracao","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_51A795B9","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_51A795B9","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Spr_player_idle","path":"sprites/Spr_player_idle/Spr_player_idle.yy",},"x":174.0,"y":190.0,},

@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"Fnt_nome_jogo","order":1,"path":"fonts/Fnt_nome_jogo/Fnt_nome_jogo.yy",},
+    {"name":"Obj_titulo","order":1,"path":"objects/Obj_titulo/Obj_titulo.yy",},
     {"name":"Spr_player_morte","order":1,"path":"sprites/Spr_player_morte/Spr_player_morte.yy",},
   ],
 }

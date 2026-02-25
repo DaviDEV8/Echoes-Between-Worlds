@@ -49,6 +49,7 @@
   "name":"Echoes-Between-Worlds",
   "resources":[
     {"id":{"name":"Fnt_menu","path":"fonts/Fnt_menu/Fnt_menu.yy",},},
+    {"id":{"name":"Fnt_nome_jogo","path":"fonts/Fnt_nome_jogo/Fnt_nome_jogo.yy",},},
     {"id":{"name":"Obj_botao","path":"objects/Obj_botao/Obj_botao.yy",},},
     {"id":{"name":"Obj_caixa","path":"objects/Obj_caixa/Obj_caixa.yy",},},
     {"id":{"name":"Obj_chao","path":"objects/Obj_chao/Obj_chao.yy",},},
@@ -59,6 +60,7 @@
     {"id":{"name":"Obj_portal","path":"objects/Obj_portal/Obj_portal.yy",},},
     {"id":{"name":"Obj_preda","path":"objects/Obj_preda/Obj_preda.yy",},},
     {"id":{"name":"Obj_screenshake","path":"objects/Obj_screenshake/Obj_screenshake.yy",},},
+    {"id":{"name":"Obj_titulo","path":"objects/Obj_titulo/Obj_titulo.yy",},},
     {"id":{"name":"Obj_transicao_level","path":"objects/Obj_transicao_level/Obj_transicao_level.yy",},},
     {"id":{"name":"Obj_transicao","path":"objects/Obj_transicao/Obj_transicao.yy",},},
     {"id":{"name":"Obj_verifica_colisao","path":"objects/Obj_verifica_colisao/Obj_verifica_colisao.yy",},},
