@@ -115,7 +115,10 @@ cria_portal = function()
     }
 }
 
-
+morrendo =function()
+{
+    estado = estado_morto
+}
 
 #endregion
 
@@ -190,6 +193,14 @@ estado_pulo =function()
         instance_create_depth(x,y,depth -1,Obj_part_pulo)
         efeito_squesh(1.3,.7)
     }
+}
+
+estado_morto =function()
+{
+    troca_sprite(Spr_player_morte)
+    velh = 0
+    velv = 0
+    mask_index = Spr_vazio
 }
 #endregion
 

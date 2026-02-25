@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"The Florest",
+  "%Name":"Echoes-Between-Worlds",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -46,7 +46,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.3.217",
   },
-  "name":"The Florest",
+  "name":"Echoes-Between-Worlds",
   "resources":[
     {"id":{"name":"Fnt_menu","path":"fonts/Fnt_menu/Fnt_menu.yy",},},
     {"id":{"name":"Obj_botao","path":"objects/Obj_botao/Obj_botao.yy",},},
@@ -92,6 +92,7 @@
     {"id":{"name":"Spr_obelisk","path":"sprites/Spr_obelisk/Spr_obelisk.yy",},},
     {"id":{"name":"Spr_player_caindo","path":"sprites/Spr_player_caindo/Spr_player_caindo.yy",},},
     {"id":{"name":"Spr_player_idle","path":"sprites/Spr_player_idle/Spr_player_idle.yy",},},
+    {"id":{"name":"Spr_player_morte","path":"sprites/Spr_player_morte/Spr_player_morte.yy",},},
     {"id":{"name":"Spr_player_movendo","path":"sprites/Spr_player_movendo/Spr_player_movendo.yy",},},
     {"id":{"name":"Spr_player_pulando","path":"sprites/Spr_player_pulando/Spr_player_pulando.yy",},},
     {"id":{"name":"Spr_ponte","path":"sprites/Spr_ponte/Spr_ponte.yy",},},

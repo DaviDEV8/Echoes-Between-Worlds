@@ -1,4 +1,6 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"Spr_player_morte","order":1,"path":"sprites/Spr_player_morte/Spr_player_morte.yy",},
+  ],
 }
