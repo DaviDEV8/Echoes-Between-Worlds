@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"Sh_muda_cor",
+  "name":"Sh_muda_cor",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Efeitos/Shaders.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
