@@ -1,0 +1,11 @@
+draw_sprite_ext(
+    BG_Alt_fundo,
+    0,
+    x,
+    y,
+    scale,
+    scale,
+    0,
+    c_white,
+    1
+);

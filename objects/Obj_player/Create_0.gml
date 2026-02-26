@@ -95,7 +95,7 @@ cria_portal = function()
     {
         if (!instance_exists(Obj_portal))
         {
-            instance_create_layer(x, y, layer, Obj_portal);
+            instance_create_layer(x, y, "Portal", Obj_portal);
         }
     }
     else
