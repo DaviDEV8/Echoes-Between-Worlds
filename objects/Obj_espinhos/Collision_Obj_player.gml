@@ -1,5 +1,6 @@
 if(!alvo)
 {
+    audio_play_sound(Snd_morte,0,0)
     alvo = other.id
     other.morrendo()
     

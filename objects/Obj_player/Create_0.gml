@@ -24,6 +24,7 @@ grav = 0.2
 //variaveis dos estados
 estado = noone
 dir = 1
+
 #endregion
 
 #region Imputs e movimento do player
@@ -100,6 +101,7 @@ cria_portal = function()
     }
     else
     {
+        audio_stop_sound(Snd_portal)
         if (instance_exists(Obj_portal))
         {
             var preso = place_meeting(x, y, Obj_verifica_colisao);
@@ -173,10 +175,18 @@ estado_movendo =function()
     {
         estado = estado_parado
     }
+    if(jump)
+    {
+        estado = estado_pulo
+        instance_create_depth(x,y,depth -1,Obj_part_pulo)
+        efeito_squesh(.7,1.3)
+        
+    }
 }
 
 estado_pulo =function()
 {
+    
     aplica_velocidade()
     // se eu estou subindo minha velv é negativa
     if(velv <0)
