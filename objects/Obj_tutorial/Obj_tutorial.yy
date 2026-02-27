@@ -1,9 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_verifica_colisao",
-  "eventList":[],
+  "%Name":"Obj_tutorial",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_verifica_colisao",
+  "name":"Obj_tutorial",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_verifica_colisao",
-    "path":"sprites/Spr_verifica_colisao/Spr_verifica_colisao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

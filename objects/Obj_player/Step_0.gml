@@ -7,11 +7,11 @@ retorna_squesh()
 
 if (keyboard_check_pressed(vk_space))
 {
-    audio_play_sound(snd_jump, 1, 0)
+    audio_play_sound(snd_jump, 2, 0)
 }
 if(keyboard_check_pressed(ord("R")))
 {
-    audio_play_sound(Snd_portal,0,0)
+    audio_play_sound(Snd_portal,1,0)
     
 }
 

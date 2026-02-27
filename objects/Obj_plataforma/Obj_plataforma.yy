@@ -44,8 +44,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_chao",
-    "path":"sprites/Spr_chao/Spr_chao.yy",
+    "name":"Spr_plataforma",
+    "path":"sprites/Spr_plataforma/Spr_plataforma.yy",
   },
   "spriteMaskId":null,
   "visible":true,

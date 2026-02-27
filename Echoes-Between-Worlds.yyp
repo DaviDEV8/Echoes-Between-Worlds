@@ -40,7 +40,9 @@
     {"link":"io.gamemaker.gm_effect_glow-1.0.0","name":"io.gamemaker.gm_effect_glow-1.0.0","path":"io.gamemaker.gm_effect_glow-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_effect_windblown_particles-1.0.0","name":"io.gamemaker.gm_effect_windblown_particles-1.0.0","path":"io.gamemaker.gm_effect_windblown_particles-1.0.0.yyp",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"scribble_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"scribble_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -48,6 +50,7 @@
   },
   "name":"Echoes-Between-Worlds",
   "resources":[
+    {"id":{"name":"Fnt_dialogo","path":"fonts/Fnt_dialogo/Fnt_dialogo.yy",},},
     {"id":{"name":"Fnt_menu","path":"fonts/Fnt_menu/Fnt_menu.yy",},},
     {"id":{"name":"Fnt_nome_jogo","path":"fonts/Fnt_nome_jogo/Fnt_nome_jogo.yy",},},
     {"id":{"name":"Obj_botao","path":"objects/Obj_botao/Obj_botao.yy",},},
@@ -65,6 +68,7 @@
     {"id":{"name":"Obj_titulo","path":"objects/Obj_titulo/Obj_titulo.yy",},},
     {"id":{"name":"Obj_transicao_level","path":"objects/Obj_transicao_level/Obj_transicao_level.yy",},},
     {"id":{"name":"Obj_transicao","path":"objects/Obj_transicao/Obj_transicao.yy",},},
+    {"id":{"name":"Obj_tutorial","path":"objects/Obj_tutorial/Obj_tutorial.yy",},},
     {"id":{"name":"Obj_verifica_colisao","path":"objects/Obj_verifica_colisao/Obj_verifica_colisao.yy",},},
     {"id":{"name":"Rm_fase1","path":"rooms/Rm_fase1/Rm_fase1.yy",},},
     {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
@@ -84,6 +88,7 @@
     {"id":{"name":"Spr_arvore_fruta","path":"sprites/Spr_arvore_fruta/Spr_arvore_fruta.yy",},},
     {"id":{"name":"Spr_arvore1","path":"sprites/Spr_arvore1/Spr_arvore1.yy",},},
     {"id":{"name":"Spr_arvore2","path":"sprites/Spr_arvore2/Spr_arvore2.yy",},},
+    {"id":{"name":"Spr_bandeira","path":"sprites/Spr_bandeira/Spr_bandeira.yy",},},
     {"id":{"name":"Spr_botao_azul","path":"sprites/Spr_botao_azul/Spr_botao_azul.yy",},},
     {"id":{"name":"Spr_botao_cinza","path":"sprites/Spr_botao_cinza/Spr_botao_cinza.yy",},},
     {"id":{"name":"Spr_caixa","path":"sprites/Spr_caixa/Spr_caixa.yy",},},
@@ -94,6 +99,7 @@
     {"id":{"name":"Spr_flor3","path":"sprites/Spr_flor3/Spr_flor3.yy",},},
     {"id":{"name":"Spr_fundo_menu","path":"sprites/Spr_fundo_menu/Spr_fundo_menu.yy",},},
     {"id":{"name":"Spr_obelisk","path":"sprites/Spr_obelisk/Spr_obelisk.yy",},},
+    {"id":{"name":"Spr_plataforma","path":"sprites/Spr_plataforma/Spr_plataforma.yy",},},
     {"id":{"name":"Spr_player_caindo","path":"sprites/Spr_player_caindo/Spr_player_caindo.yy",},},
     {"id":{"name":"Spr_player_idle","path":"sprites/Spr_player_idle/Spr_player_idle.yy",},},
     {"id":{"name":"Spr_player_morte","path":"sprites/Spr_player_morte/Spr_player_morte.yy",},},

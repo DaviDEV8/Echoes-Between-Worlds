@@ -10,7 +10,7 @@ velh = 0
 max_velh = 2
 
 var _tile = layer_tilemap_get_id("Chao")
-colisao = [Obj_chao,Obj_caixa, _tile]
+colisao = [Obj_chao,Obj_caixa, _tile, Obj_plataforma]
 
 //variaveis do movimento
 jump = false
