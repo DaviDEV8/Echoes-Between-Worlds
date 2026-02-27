@@ -10,7 +10,7 @@ velh = 0
 max_velh = 2
 
 var _tile = layer_tilemap_get_id("Chao")
-colisao = [Obj_chao,Obj_caixa, _tile, Obj_plataforma]
+colisao = [Obj_chao,Obj_caixa, _tile]
 
 //variaveis do movimento
 jump = false
@@ -38,9 +38,26 @@ imputs =function()
 }
 
 //checando se o player está no chão
-checa_chao=function()
+checa_chao = function()
 {
-    chao = place_meeting(x,y + 1,colisao)
+    // chão fixo
+    var no_chao_fixo = place_meeting(x, y + 1, colisao);
+
+    // plataforma móvel
+    var plat = instance_place(x, y + 1, Obj_plataforma);
+
+    var na_plataforma = false;
+
+    if (plat != noone && plat.colidivel)
+    {
+        // garante que está realmente apoiado nela
+        if (bbox_bottom <= plat.bbox_top + 2)
+        {
+            na_plataforma = true;
+        }
+    }
+
+    chao = no_chao_fixo || na_plataforma;
 }
 
 aplica_velocidade =function()

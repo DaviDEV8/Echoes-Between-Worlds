@@ -53,6 +53,7 @@
     {"id":{"name":"Fnt_dialogo","path":"fonts/Fnt_dialogo/Fnt_dialogo.yy",},},
     {"id":{"name":"Fnt_menu","path":"fonts/Fnt_menu/Fnt_menu.yy",},},
     {"id":{"name":"Fnt_nome_jogo","path":"fonts/Fnt_nome_jogo/Fnt_nome_jogo.yy",},},
+    {"id":{"name":"Obj_alem_chao","path":"objects/Obj_alem_chao/Obj_alem_chao.yy",},},
     {"id":{"name":"Obj_botao","path":"objects/Obj_botao/Obj_botao.yy",},},
     {"id":{"name":"Obj_caixa","path":"objects/Obj_caixa/Obj_caixa.yy",},},
     {"id":{"name":"Obj_chao","path":"objects/Obj_chao/Obj_chao.yy",},},
@@ -71,6 +72,7 @@
     {"id":{"name":"Obj_tutorial","path":"objects/Obj_tutorial/Obj_tutorial.yy",},},
     {"id":{"name":"Obj_verifica_colisao","path":"objects/Obj_verifica_colisao/Obj_verifica_colisao.yy",},},
     {"id":{"name":"Rm_fase1","path":"rooms/Rm_fase1/Rm_fase1.yy",},},
+    {"id":{"name":"Rm_fase2","path":"rooms/Rm_fase2/Rm_fase2.yy",},},
     {"id":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
     {"id":{"name":"Rm_teste","path":"rooms/Rm_teste/Rm_teste.yy",},},
     {"id":{"name":"Rm_tutorial","path":"rooms/Rm_tutorial/Rm_tutorial.yy",},},
@@ -121,6 +123,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Rm_fase2","path":"rooms/Rm_fase2/Rm_fase2.yy",},},
     {"roomId":{"name":"Rm_menu","path":"rooms/Rm_menu/Rm_menu.yy",},},
     {"roomId":{"name":"Rm_fase1","path":"rooms/Rm_fase1/Rm_fase1.yy",},},
     {"roomId":{"name":"Rm_teste","path":"rooms/Rm_teste/Rm_teste.yy",},},

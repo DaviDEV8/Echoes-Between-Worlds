@@ -1,6 +1,9 @@
 // movimento
 origem_x = x
 origem_y = y
+
+x_anterior = x
+y_anterior = y
 dir = 1
 
 // colisão

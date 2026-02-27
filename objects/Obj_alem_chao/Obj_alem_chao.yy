@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_chao",
+  "%Name":"Obj_alem_chao",
   "eventList":[],
   "managed":true,
-  "name":"Obj_chao",
+  "name":"Obj_alem_chao",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Obj_espinhos",
+    "path":"objects/Obj_espinhos/Obj_espinhos.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_chao",
-    "path":"sprites/Spr_chao/Spr_chao.yy",
+    "name":"Spr_verifica_colisao",
+    "path":"sprites/Spr_verifica_colisao/Spr_verifica_colisao.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
