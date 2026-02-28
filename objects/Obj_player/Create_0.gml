@@ -235,6 +235,10 @@ estado_morto =function()
     velh = 0
     velv = 0
     mask_index = Spr_vazio
+    if(image_index >= image_number -1)
+    {
+        image_index = 9
+    }
 }
 #endregion
 
