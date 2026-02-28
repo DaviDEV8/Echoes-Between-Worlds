@@ -53,3 +53,5 @@ switch (Estado)
 }
 
 estado_padrao = estado
+// APLICA O ESTADO INICIAL
+estado();

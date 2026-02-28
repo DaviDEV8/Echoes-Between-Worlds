@@ -17,3 +17,4 @@ switch (Move)
             dir *= -1;
     break;
 }
+

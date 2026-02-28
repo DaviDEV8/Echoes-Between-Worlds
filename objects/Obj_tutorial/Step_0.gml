@@ -27,14 +27,14 @@ if (etapa == 1)
     if (keyboard_check_pressed(vk_space))
     {
         etapa = 2;
-        texto = "Pressione R para usar o portal.";
+        texto = "Pressione J para usar o portal.";
     }
 }
 
 // ETAPA 2 - Usou o portal
 if (etapa == 2)
 {
-    if (keyboard_check_pressed(ord("R")))
+    if (keyboard_check_pressed(ord("J")))
     {
         etapa = 3;
         

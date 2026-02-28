@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"Rm_fase1",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/Rm_fase1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -95,7 +95,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2A01F9E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2A01F9E6","objectId":{"name":"Obj_espinhos","path":"objects/Obj_espinhos/Obj_espinhos.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":256.0,},
         {"$GMRInstance":"v4","%Name":"inst_4F93C2AD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F93C2AD","objectId":{"name":"Obj_transicao_level","path":"objects/Obj_transicao_level/Obj_transicao_level.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Obj_transicao_level","path":"objects/Obj_transicao_level/Obj_transicao_level.yy",},"propertyId":{"name":"destino1","path":"objects/Obj_transicao_level/Obj_transicao_level.yy",},"resource":{"name":"Rm_fase2","path":"rooms/Rm_fase2/Rm_fase2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Rm_fase2",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.25,"scaleY":1.25,"x":1104.0,"y":104.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.25,"scaleY":2.5,"x":1104.0,"y":64.0,},
       ],"layers":[],"name":"Level","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Fundo","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Fundo","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"BG_fundo","path":"sprites/BG_fundo/BG_fundo.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

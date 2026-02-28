@@ -8,6 +8,7 @@ max_velv = 4
 
 velh = 0
 max_velh = 2
+controle = true
 
 var _tile = layer_tilemap_get_id("Chao")
 colisao = [Obj_chao,Obj_caixa, _tile]
@@ -34,7 +35,7 @@ imputs =function()
     right = keyboard_check(ord("D"))
     left = keyboard_check(ord("A"))
     jump = keyboard_check(vk_space)
-    portal = keyboard_check(ord("R"))
+    portal = keyboard_check(ord("J"))
 }
 
 //checando se o player está no chão
@@ -62,6 +63,12 @@ checa_chao = function()
 
 aplica_velocidade =function()
 {
+    if (!controle)
+    {
+        velh = 0;
+        velv = 0;
+        return;
+    }
     //aplicando os inputs no velh
     velh = (right -left) * max_velh
     
